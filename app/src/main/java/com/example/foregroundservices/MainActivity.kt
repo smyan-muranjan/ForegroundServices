@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
                             startService(it)
                         }
                     }) {
-                        Text(text= "Start Run")
+                        Text(text= "Start Notification")
                     }
                     Button(onClick = {
                         Intent(applicationContext, RunningService::class.java).also {
@@ -53,7 +53,7 @@ class MainActivity : ComponentActivity() {
                             startService(it)
                         }
                     }) {
-                        Text(text= "Stop Run")
+                        Text(text= "Stop Notification")
                     }
                 }
             }
